@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Portal</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.box {
+    background: #2c2c54;
+    padding: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background: #40407a;
+    transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<h1>🌐 WEB PORTAL ATHA</h1>
+
+<div class="container">
+
+<!-- Contoh yang sudah ada link -->
+<div class="box" onclick="bukaLink('https://symphonious-florentine-444cfe.netlify.app/')">WEB DONWLOAD VIDEO TIKTOK NO WATERMARK</div>
+<div class="box" onclick="https://chat.whatsapp.com/GnD5b79dVWQBwjaY6oNrno?mode=gi_t">JB FF RZX STORE INI JB AKU WJIB MASUK YA</div>
+
+<!-- Yang belum diisi -->
+<div class="box" onclick="bukaLink('')">Portal 3</div>
+<div class="box" onclick="bukaLink('')">Portal 4</div>
+<div class="box" onclick="bukaLink('')">Portal 5</div>
+
+<div class="box" onclick="bukaLink('')">Portal 6</div>
+<div class="box" onclick="bukaLink('')">Portal 7</div>
+<div class="box" onclick="bukaLink('')">Portal 8</div>
+<div class="box" onclick="bukaLink('')">Portal 9</div>
+<div class="box" onclick="bukaLink('')">Portal 10</div>
+
+<div class="box" onclick="bukaLink('')">Portal 11</div>
+<div class="box" onclick="bukaLink('')">Portal 12</div>
+<div class="box" onclick="bukaLink('')">Portal 13</div>
+<div class="box" onclick="bukaLink('')">Portal 14</div>
+<div class="box" onclick="bukaLink('')">Portal 15</div>
+
+</div>
+
+<script>
+function bukaLink(link) {
+    if (link === "") {
+        alert("MOHON MAAF WEB PORTAL ITU BELUM DIISI LINK MOHON TUNGGU NEXT TIME YA MAKASIH 🙏🙏");
+    } else {
+        window.open(link, "_blank");
+    }
+}
+</script>
+
+</body>
+</html>
